@@ -38,8 +38,8 @@
                         <a class="nav-link" href="contacto.html">Contacto</a>
                     </li>
                 </ul>
-                <a class="icon-link" href="registro.html">
-                    No tengo cuenta
+                <a class="icon-link" href="login.html">
+                    Iniciar sesión
                     <svg class="bi" aria-hidden="true">
                         <use xlink:href="#arrow-right"></use>
                     </svg>
@@ -55,25 +55,38 @@
     </nav>
 
 
-
     <div class="container">
-
-        <form>
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-            <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Recuerdame</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Entrar</button>
-        </form>
+        <h5>Rellene los datos para subir su trabajo.</h5>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default">Trabajo realizado</span>
+            <input type="text" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="mb-3">
+            <label for="formFileMultiple" class="form-label">Imagenes de el trabajo</label>
+            <input class="form-control" type="file" id="formFileMultiple" multiple>
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default">Diagnostico</span>
+            <input type="text" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default">Materiales utilizados</span>
+            <input type="text" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default">Nombre mecanico</span>
+            <input type="text" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default">
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
     </div>
+
+
+
+
 
 
 </body>
